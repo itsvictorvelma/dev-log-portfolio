@@ -10,6 +10,7 @@ env/
 
 # Environment/Secrets
 .env
+.DS_Store
 
-# Node/Tailwind (in case of junk lol) 
+# Node/Tailwind (in case of junk lol)
 node_modules/

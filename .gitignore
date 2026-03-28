@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Databases
+*.sqlite3
+*.db
+
+# Environment/Secrets
+.env
+
+# Node/Tailwind (in case of junk lol) 
+node_modules/

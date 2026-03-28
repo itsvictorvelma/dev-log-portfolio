@@ -5,13 +5,22 @@
         {% block title %}
         <title>Victor Velma</title>
         {% endblock %}
+        <link href="{{ url_for('static', path='/static/css/output.css') }}" rel="sylesheet">
     </head>
     <body>
         <header>
+            <nav>
+                <a href="/">Home</a> | <a href="/about">About Me</a>
+            </nav>
+            
             <h1>{% block header %} Victor Velma {% endblock %}</h1>
         </header>
 
-        <main>{% block content%} {% endblock %}</main>
+        <main>
+            {% block content%}
+           
+            {% endblock %}
+        </main>
 
         <footer>
             <p>&copy; 2026</p>

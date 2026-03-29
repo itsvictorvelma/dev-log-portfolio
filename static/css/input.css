@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@source "../templates/**/*.html";
+@theme {
+    --color-primary: #3b82f;
+}
